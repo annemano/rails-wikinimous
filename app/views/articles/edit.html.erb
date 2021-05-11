@@ -1,3 +1,9 @@
 <h1>Edit article</h1>
 
 <%= render 'form', article: @article %>
+
+<hr>
+<%= link_to articles_path do %>
+  <p class="link"><i class="fas fa-undo-alt"></i> Back</p>
+<% end %>
+

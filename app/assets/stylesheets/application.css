@@ -1,15 +1,56 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+#articles {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 24px 0 8px 0;
+  font-size: 32px;
+}
+
+.content {
+  font-weight: lighter;
+}
+
+.title a {
+  text-decoration: none;
+  color: #2274aa;
+}
+
+.title a:hover {
+  text-decoration: underline;
+  color: #1E5475;
+}
+
+.link {
+  text-decoration: none;
+  color: #2274aa;
+}
+
+/* Style inputs */
+  input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 20%;
+  background-color: #2274aa;;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #1E5475;
+}
