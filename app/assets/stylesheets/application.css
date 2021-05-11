@@ -12,12 +12,12 @@
   font-weight: lighter;
 }
 
-.title a {
+.title a, .article-options a {
   text-decoration: none;
   color: #2274aa;
 }
 
-.title a:hover {
+.title a:hover, .article-options a:hover {
   text-decoration: underline;
   color: #1E5475;
 }
@@ -25,6 +25,10 @@
 .link {
   text-decoration: none;
   color: #2274aa;
+}
+
+.article-title {
+  margin-top: 24px;
 }
 
 /* Style inputs */
