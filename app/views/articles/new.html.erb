@@ -3,6 +3,6 @@
 <%= render 'form', article: @article %>
 
 <hr>
-<%= link_to articles_path do %>
-  <p class="back"><i class="fas fa-undo-alt"></i> Back</p>
+<%= link_to articles_path, class: "back" do %>
+  <i class="fas fa-undo-alt"></i> Back</p>
 <% end %>

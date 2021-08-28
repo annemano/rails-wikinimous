@@ -13,4 +13,7 @@
 <hr>
 <p class="content"><%= @article.content  %></p>
 
-
+<hr>
+<%= link_to articles_path, class: "back" do %>
+  <i class="fas fa-undo-alt"></i> Back
+<% end %>
